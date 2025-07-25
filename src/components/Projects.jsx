@@ -6,7 +6,7 @@ const projects = [
   {
     "title": "TaskFlow",
     "description": "A role-based task management system with real-time updates for Admins, Managers, and Users.",
-    "image": "https://images.unsplash.com/photo-1581090700227-1e8e5f307327?auto=format&fit=crop&q=80&w=800",
+    "image": "https://images.unsplash.com/photo-1581092580501-ec28b197ef8f?auto=format&fit=crop&q=80&w=800",
     "techStack": ["Node.js", "Express", "MongoDB", "Socket.IO", "React", "Next.js", "Bootstrap", "Redux Toolkit", "Axios"],
     "features": [
       "JWT-secured authentication for Admin, Manager, and User roles",
@@ -21,7 +21,7 @@ const projects = [
   {
     "title": "Vendor App",
     "description": "A full-stack vendor management system with secure authentication and efficient CRUD operations.",
-    "image": "https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&q=80&w=800",
+    "image": "https://images.unsplash.com/photo-1613470208960-b0d24d9a3c33?auto=format&fit=crop&q=80&w=800",
     "techStack": ["React", "Node.js", "Express", "MongoDB Atlas", "Google OAuth 2.0", "JWT", "Tailwind CSS"],
     "features": [
       "Google OAuth 2.0 and JWT-based secure login",
