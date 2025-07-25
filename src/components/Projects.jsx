@@ -6,7 +6,7 @@ const projects = [
   {
     "title": "TaskFlow",
     "description": "A role-based task management system with real-time updates for Admins, Managers, and Users.",
-    "image": "https://via.placeholder.com/800x400?text=TaskFlow+App+Screenshot",
+    "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&q=80&w=800",
     "techStack": ["Node.js", "Express", "MongoDB", "Socket.IO", "React", "Next.js", "Bootstrap", "Redux Toolkit", "Axios"],
     "features": [
       "JWT-secured authentication for Admin, Manager, and User roles",
@@ -21,7 +21,7 @@ const projects = [
   {
     "title": "Vendor App",
     "description": "A full-stack vendor management system with secure authentication and efficient CRUD operations.",
-    "image": "https://via.placeholder.com/800x400?text=Vendor+App+Screenshot",
+    "image": "https://images.unsplash.com/photo-1556740772-1a741367b93e?auto=format&fit=crop&q=80&w=800",
     "techStack": ["React", "Node.js", "Express", "MongoDB Atlas", "Google OAuth 2.0", "JWT", "Tailwind CSS"],
     "features": [
       "Google OAuth 2.0 and JWT-based secure login",
@@ -49,7 +49,7 @@ const projects = [
     techStack: ['React.js', 'Bootstrap', 'Axios'],
     features: ['Product filtering and search', 'Cart management system', 'Responsive design'],
     githubLink: 'https://github.com/Uday-KumarD/Shopify.git',
-    liveLink: 'https://github.com/Uday-KumarD/Shopify.git'
+    liveLink: 'https://shopweb01.netlify.app'
   },
   {
     title: 'Spring Boot Task Tracker',

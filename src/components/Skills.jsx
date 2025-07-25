@@ -9,12 +9,12 @@ const skillCategories = [
   {
     title: 'Web Development',
     icon: 'bi-globe2',
-    skills: ['HTML', 'CSS', 'React.js', 'Redux', 'Bootstrap', 'Ant Design', 'Spring Boot', 'Node.js', 'RESTful APIs'],
+    skills: ['HTML', 'CSS', 'React.js','Next.js', 'Redux', 'RTK', 'Bootstrap', 'Ant Design', 'Spring Boot', 'Node.js','Express.js', 'RESTful APIs'],
   },
   {
     title: 'Tools & Platform',
     icon: 'bi-tools',
-    skills: ['Maven', 'Spring MVC', 'JDBC', 'Git (GitHub)', 'Vite', 'MongoDB', 'VS Code'],
+    skills: ['Maven', 'Spring MVC', 'JDBC','Hibernate','Postman','Hibernate', 'Git (GitHub)', 'Vite', 'MongoDB', 'VS Code'],
   },
   {
     title: 'Other Skills',
@@ -24,7 +24,7 @@ const skillCategories = [
   {
     title: 'Familiar With',
     icon: 'bi-terminal-fill',
-    skills: ['Azure', 'CI/CD pipelines', 'Docker'],
+    skills: ['CI/CD pipelines', 'Docker','Jenkins'],
   }
 ]
 

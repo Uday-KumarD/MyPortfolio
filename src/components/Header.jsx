@@ -3,7 +3,7 @@ import profileImage from '../assets/profileImage.jpg'
 
 const Header = () => {
   return (
-    <div id="home" className="min-h-screen flex items-center relative py-20 px-10 bg-gradient-to-br from-gray-900 to-blue-950">
+    <div id="home" className="min-h-screen flex items-center relative py-20 px-5 bg-gradient-to-br from-gray-900 to-blue-950">
       <div className="container mx-auto px-6 py-24">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-16">
           <motion.div
@@ -26,11 +26,7 @@ const Header = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.8 }}
             >
-Actively seeking opportunities in web development roles, both frontend and backend, with relevant knowledge
- of modern web technologies. Gained hands-on experience by building real-world full stack projects and earned 
- a Full Stack Development certification. Skilled in creating responsive interfaces using React.js, and developing 
- robust backend services with Node.js and Java (Spring Boot). Possess a strong understanding of Java programming and
-  backend development using Spring Boot, JPA, and MySQL, with a focus on building secure and scalable applications.            </motion.p>
+Skilled in both frontend and backend web development, with hands-on expertise in building responsive full-stack applications using React.js, Node.js, and Spring Boot. Proficient in Java, JPA, and MySQL, with a focus on developing secure and scalable systems.            </motion.p>
             <motion.div
               className="flex space-x-6"
               initial={{ opacity: 0, y: 20 }}
