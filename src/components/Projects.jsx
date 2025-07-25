@@ -4,13 +4,43 @@ import ProjectModal from './ProjectModal'
 
 const projects = [
   {
+    "title": "TaskFlow",
+    "description": "A role-based task management system with real-time updates for Admins, Managers, and Users.",
+    "image": "https://via.placeholder.com/800x400?text=TaskFlow+App+Screenshot",
+    "techStack": ["Node.js", "Express", "MongoDB", "Socket.IO", "React", "Next.js", "Bootstrap", "Redux Toolkit", "Axios"],
+    "features": [
+      "JWT-secured authentication for Admin, Manager, and User roles",
+      "Responsive dashboards with violet theme for different user roles",
+      "Real-time task assignment and updates using Socket.IO",
+      "Over 5+ API endpoints managing users and tasks",
+      "Task view and control for 100+ users"
+    ],
+    "githubLink": "https://github.com/Uday-KumarD/taskmaster-frontend.gi", 
+    "liveLink": "https://taskmaster-frontend1.netlify.app"
+  },
+  {
+    "title": "Vendor App",
+    "description": "A full-stack vendor management system with secure authentication and efficient CRUD operations.",
+    "image": "https://via.placeholder.com/800x400?text=Vendor+App+Screenshot",
+    "techStack": ["React", "Node.js", "Express", "MongoDB Atlas", "Google OAuth 2.0", "JWT", "Tailwind CSS"],
+    "features": [
+      "Google OAuth 2.0 and JWT-based secure login",
+      "Efficient management of over 500 vendor records",
+      "Responsive UI styled with Tailwind CSS",
+      "Paginated navigation across vendor listings",
+      "Robust CRUD APIs for seamless vendor operations"
+    ],
+    "githubLink": "https://github.com/Uday-KumarD/vendor_frontend2.git",
+    "liveLink": "https://vendorfrontend2.netlify.app"
+  },
+  {
     title: 'Real-Time Crypto Insights',
     description: 'A comprehensive cryptocurrency dashboard with live market data and analytics.',
     image: 'https://images.unsplash.com/photo-1621761191319-c6fb62004040?auto=format&fit=crop&q=80&w=800',
     techStack: ['React', 'Redux Toolkit', 'Ant Design', 'Chart.js'],
     features: ['Live market data integration', 'Interactive charts with Chart.js', 'Responsive multi-page interface'],
     githubLink: 'https://github.com/Uday-KumarD/cryptoReact.git',
-    liveLink: 'https://github.com/Uday-KumarD/cryptoReact.git'
+    liveLink: 'https://real-timecrypto.netlify.app'
   },
   {
     title: 'E-commerce Web App',
